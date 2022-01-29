@@ -1,0 +1,28 @@
+.card-container{
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+    font-size: small;
+    text-align: center;
+    width: 350px;
+    /* height: 300px; */
+    border-radius: 20px;
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: #ecf0f3;
+    cursor: pointer;
+    box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+    
+}
+
+.card-container:hover{
+    transform:scale(1.05)
+}
+.card-container img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

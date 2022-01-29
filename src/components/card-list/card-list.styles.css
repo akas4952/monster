@@ -1,0 +1,15 @@
+.card-list{
+    width:100%;
+    margin:0 auto;
+    /* padding: 10% 20px; */
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap:20px;
+    
+   
+    
+    /* display: flex; */
+    /* flex:25%; */
+    /* flex-wrap: wrap; */
+
+}
